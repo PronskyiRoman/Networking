@@ -41,7 +41,7 @@
             self.endPointPath = "restOfUrlIfNeedIt"
             self.httpBody = .init(model: SomeDataToPassToTheServer.init())
         }
-}
+    }
 
 4 - in your own class reated erlier create an async func
 
