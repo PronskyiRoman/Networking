@@ -11,6 +11,24 @@
 		F1BCABF629660BFC008E2FE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCABF529660BFC008E2FE8 /* ContentView.swift */; };
 		F1BCABF829660C00008E2FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCABF729660C00008E2FE8 /* Assets.xcassets */; };
 		F1BCABFC29660C00008E2FE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCABFB29660C00008E2FE8 /* Preview Assets.xcassets */; };
+		F1BCAC0429660C92008E2FE8 /* APISession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC0329660C92008E2FE8 /* APISession.swift */; };
+		F1BCAC0729660D45008E2FE8 /* APISessionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC0629660D45008E2FE8 /* APISessionManagerProtocol.swift */; };
+		F1BCAC0A29660DAF008E2FE8 /* URLRequestDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC0929660DAF008E2FE8 /* URLRequestDescriptor.swift */; };
+		F1BCAC0C29660DE3008E2FE8 /* HttpDtoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC0B29660DE3008E2FE8 /* HttpDtoResponse.swift */; };
+		F1BCAC0E29660E23008E2FE8 /* HttpBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC0D29660E23008E2FE8 /* HttpBody.swift */; };
+		F1BCAC1029660E56008E2FE8 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC0F29660E56008E2FE8 /* Media.swift */; };
+		F1BCAC1229660ECC008E2FE8 /* MediaFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC1129660ECC008E2FE8 /* MediaFormat.swift */; };
+		F1BCAC1429660F16008E2FE8 /* MediaKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC1329660F16008E2FE8 /* MediaKey.swift */; };
+		F1BCAC1629660F3A008E2FE8 /* HttpContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC1529660F3A008E2FE8 /* HttpContentType.swift */; };
+		F1BCAC1829660F61008E2FE8 /* DecodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC1729660F61008E2FE8 /* DecodingStrategy.swift */; };
+		F1BCAC1A29660F84008E2FE8 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC1929660F84008E2FE8 /* HttpMethod.swift */; };
+		F1BCAC1C29660FEA008E2FE8 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC1B29660FEA008E2FE8 /* NetworkError.swift */; };
+		F1BCAC1E29661049008E2FE8 /* RequestConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC1D29661049008E2FE8 /* RequestConfigurator.swift */; };
+		F1BCAC2229661132008E2FE8 /* Data+append.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC2129661132008E2FE8 /* Data+append.swift */; };
+		F1BCAC24296611CE008E2FE8 /* Date+ios8601Full.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC23296611CE008E2FE8 /* Date+ios8601Full.swift */; };
+		F1BCAC2629661200008E2FE8 /* Data+getJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC2529661200008E2FE8 /* Data+getJson.swift */; };
+		F1BCAC282966123C008E2FE8 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC272966123C008E2FE8 /* NetworkController.swift */; };
+		F1BCAC2A29661359008E2FE8 /* ErrorSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC2929661359008E2FE8 /* ErrorSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +38,24 @@
 		F1BCABF729660C00008E2FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1BCABF929660C00008E2FE8 /* SelfMadeNetworking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SelfMadeNetworking.entitlements; sourceTree = "<group>"; };
 		F1BCABFB29660C00008E2FE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1BCAC0329660C92008E2FE8 /* APISession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISession.swift; sourceTree = "<group>"; };
+		F1BCAC0629660D45008E2FE8 /* APISessionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISessionManagerProtocol.swift; sourceTree = "<group>"; };
+		F1BCAC0929660DAF008E2FE8 /* URLRequestDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestDescriptor.swift; sourceTree = "<group>"; };
+		F1BCAC0B29660DE3008E2FE8 /* HttpDtoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpDtoResponse.swift; sourceTree = "<group>"; };
+		F1BCAC0D29660E23008E2FE8 /* HttpBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpBody.swift; sourceTree = "<group>"; };
+		F1BCAC0F29660E56008E2FE8 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		F1BCAC1129660ECC008E2FE8 /* MediaFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFormat.swift; sourceTree = "<group>"; };
+		F1BCAC1329660F16008E2FE8 /* MediaKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKey.swift; sourceTree = "<group>"; };
+		F1BCAC1529660F3A008E2FE8 /* HttpContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpContentType.swift; sourceTree = "<group>"; };
+		F1BCAC1729660F61008E2FE8 /* DecodingStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingStrategy.swift; sourceTree = "<group>"; };
+		F1BCAC1929660F84008E2FE8 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		F1BCAC1B29660FEA008E2FE8 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		F1BCAC1D29661049008E2FE8 /* RequestConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConfigurator.swift; sourceTree = "<group>"; };
+		F1BCAC2129661132008E2FE8 /* Data+append.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+append.swift"; sourceTree = "<group>"; };
+		F1BCAC23296611CE008E2FE8 /* Date+ios8601Full.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ios8601Full.swift"; sourceTree = "<group>"; };
+		F1BCAC2529661200008E2FE8 /* Data+getJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+getJson.swift"; sourceTree = "<group>"; };
+		F1BCAC272966123C008E2FE8 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		F1BCAC2929661359008E2FE8 /* ErrorSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +88,8 @@
 		F1BCABF229660BFC008E2FE8 /* SelfMadeNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				F1BCAC1F296610BE008E2FE8 /* Global */,
+				F1BCAC0229660C6A008E2FE8 /* Network */,
 				F1BCABF329660BFC008E2FE8 /* SelfMadeNetworkingApp.swift */,
 				F1BCABF529660BFC008E2FE8 /* ContentView.swift */,
 				F1BCABF729660C00008E2FE8 /* Assets.xcassets */,
@@ -67,6 +105,62 @@
 				F1BCABFB29660C00008E2FE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1BCAC0229660C6A008E2FE8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCAC0329660C92008E2FE8 /* APISession.swift */,
+				F1BCAC272966123C008E2FE8 /* NetworkController.swift */,
+				F1BCAC1D29661049008E2FE8 /* RequestConfigurator.swift */,
+				F1BCAC1B29660FEA008E2FE8 /* NetworkError.swift */,
+				F1BCAC2929661359008E2FE8 /* ErrorSource.swift */,
+				F1BCAC0529660D1C008E2FE8 /* Protocols */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F1BCAC0529660D1C008E2FE8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCAC0829660D88008E2FE8 /* RequestDescriptor */,
+				F1BCAC0629660D45008E2FE8 /* APISessionManagerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F1BCAC0829660D88008E2FE8 /* RequestDescriptor */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCAC0929660DAF008E2FE8 /* URLRequestDescriptor.swift */,
+				F1BCAC0B29660DE3008E2FE8 /* HttpDtoResponse.swift */,
+				F1BCAC0D29660E23008E2FE8 /* HttpBody.swift */,
+				F1BCAC0F29660E56008E2FE8 /* Media.swift */,
+				F1BCAC1129660ECC008E2FE8 /* MediaFormat.swift */,
+				F1BCAC1329660F16008E2FE8 /* MediaKey.swift */,
+				F1BCAC1529660F3A008E2FE8 /* HttpContentType.swift */,
+				F1BCAC1729660F61008E2FE8 /* DecodingStrategy.swift */,
+				F1BCAC1929660F84008E2FE8 /* HttpMethod.swift */,
+			);
+			path = RequestDescriptor;
+			sourceTree = "<group>";
+		};
+		F1BCAC1F296610BE008E2FE8 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCAC20296610CF008E2FE8 /* Extensions */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		F1BCAC20296610CF008E2FE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCAC2129661132008E2FE8 /* Data+append.swift */,
+				F1BCAC23296611CE008E2FE8 /* Date+ios8601Full.swift */,
+				F1BCAC2529661200008E2FE8 /* Data+getJson.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +233,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BCAC0C29660DE3008E2FE8 /* HttpDtoResponse.swift in Sources */,
+				F1BCAC282966123C008E2FE8 /* NetworkController.swift in Sources */,
+				F1BCAC1C29660FEA008E2FE8 /* NetworkError.swift in Sources */,
+				F1BCAC0A29660DAF008E2FE8 /* URLRequestDescriptor.swift in Sources */,
+				F1BCAC1A29660F84008E2FE8 /* HttpMethod.swift in Sources */,
+				F1BCAC0E29660E23008E2FE8 /* HttpBody.swift in Sources */,
 				F1BCABF629660BFC008E2FE8 /* ContentView.swift in Sources */,
+				F1BCAC2A29661359008E2FE8 /* ErrorSource.swift in Sources */,
+				F1BCAC1629660F3A008E2FE8 /* HttpContentType.swift in Sources */,
+				F1BCAC1429660F16008E2FE8 /* MediaKey.swift in Sources */,
+				F1BCAC1229660ECC008E2FE8 /* MediaFormat.swift in Sources */,
+				F1BCAC2229661132008E2FE8 /* Data+append.swift in Sources */,
+				F1BCAC2629661200008E2FE8 /* Data+getJson.swift in Sources */,
+				F1BCAC1E29661049008E2FE8 /* RequestConfigurator.swift in Sources */,
+				F1BCAC0729660D45008E2FE8 /* APISessionManagerProtocol.swift in Sources */,
 				F1BCABF429660BFC008E2FE8 /* SelfMadeNetworkingApp.swift in Sources */,
+				F1BCAC1829660F61008E2FE8 /* DecodingStrategy.swift in Sources */,
+				F1BCAC24296611CE008E2FE8 /* Date+ios8601Full.swift in Sources */,
+				F1BCAC1029660E56008E2FE8 /* Media.swift in Sources */,
+				F1BCAC0429660C92008E2FE8 /* APISession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
