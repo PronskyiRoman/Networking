@@ -31,11 +31,7 @@ class NetworkController {
         return data
     }
     
-    func emptyRequest<D: URLRequestDescriptor>(_ descriptor: D, sorceCode: ErrorSource = .somePlace) async throws {
-        do {
-            try await dataRequest(descriptor)
-        } catch {
-            throw NetworkError.unknown(nil, (sorceCode.message, sorceCode.uniqueCode))
-        }
+    func emptyRequest<D: URLRequestDescriptor>(_ descriptor: D) async throws {
+        try await dataRequest(descriptor)
     }
 }
