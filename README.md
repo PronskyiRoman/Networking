@@ -42,7 +42,21 @@
             self.httpBody = .init(model: SomeDataToPassToTheServer.init())
         }
     }
+    
+-- You can use EmptyCodable as EncodedBodyType or ResponseType if you do not need post or receive data from the server
 
+    struct GetSomeDataDescriptor: URLRequestDescriptor {
+        typealias ResponseType = EmptyCodable
+        typealias EncodedBodyType = EmptyCodable
+    
+        var httpMethod: URLHttpMethod { .get }
+        var endPointPath: String
+    
+        init() {
+            self.endPointPath = "restOfUrlIfNeedIt"
+        }
+    }
+    
 4 - in your own class reated erlier create an async func
 
     final class SomeServise: NetworkController {

@@ -29,6 +29,7 @@
 		F1BCAC2629661200008E2FE8 /* Data+getJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC2529661200008E2FE8 /* Data+getJson.swift */; };
 		F1BCAC282966123C008E2FE8 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC272966123C008E2FE8 /* NetworkController.swift */; };
 		F1BCAC2A29661359008E2FE8 /* ErrorSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC2929661359008E2FE8 /* ErrorSource.swift */; };
+		F1BCAC2D2966C600008E2FE8 /* EmptyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCAC2C2966C600008E2FE8 /* EmptyCodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		F1BCAC2529661200008E2FE8 /* Data+getJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+getJson.swift"; sourceTree = "<group>"; };
 		F1BCAC272966123C008E2FE8 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		F1BCAC2929661359008E2FE8 /* ErrorSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorSource.swift; sourceTree = "<group>"; };
+		F1BCAC2C2966C600008E2FE8 /* EmptyCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		F1BCABF229660BFC008E2FE8 /* SelfMadeNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				F1BCAC2B2966C5CD008E2FE8 /* Models */,
 				F1BCAC1F296610BE008E2FE8 /* Global */,
 				F1BCAC0229660C6A008E2FE8 /* Network */,
 				F1BCABF329660BFC008E2FE8 /* SelfMadeNetworkingApp.swift */,
@@ -161,6 +164,14 @@
 				F1BCAC2529661200008E2FE8 /* Data+getJson.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1BCAC2B2966C5CD008E2FE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCAC2C2966C600008E2FE8 /* EmptyCodable.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 				F1BCAC2A29661359008E2FE8 /* ErrorSource.swift in Sources */,
 				F1BCAC1629660F3A008E2FE8 /* HttpContentType.swift in Sources */,
 				F1BCAC1429660F16008E2FE8 /* MediaKey.swift in Sources */,
+				F1BCAC2D2966C600008E2FE8 /* EmptyCodable.swift in Sources */,
 				F1BCAC1229660ECC008E2FE8 /* MediaFormat.swift in Sources */,
 				F1BCAC2229661132008E2FE8 /* Data+append.swift in Sources */,
 				F1BCAC2629661200008E2FE8 /* Data+getJson.swift in Sources */,
